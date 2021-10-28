@@ -1,0 +1,238 @@
+.header{
+display: grid;
+}
+
+.navbar{
+display: grid;
+grid-template-columns: 1fr  9fr 1fr ;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+
+.articles{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr  ;
+       grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.article{
+     display: grid;
+}
+
+.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dos{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.tres{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cuatro{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+ .navegacion{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.aside{
+   display: grid;
+   grid-gap:10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+.header{
+    width: 95%;
+}
+.navbar{
+    width: 96%
+}
+.text{
+    width: 96%
+}
+.h1{
+    width: 95%;
+}
+.section{
+ background-color: rgb(252, 238, 49);
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ grid-template-rows: 1fr 1fr ;
+ width: 95%;
+ height: 300px;
+}
+
+.articles{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 96%;
+    height: 125px;
+    margin: 18px 0px 0px 17px;
+    padding: 10px 10px;
+}
+
+.aside{
+    width: 96%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin:17px;
+}
+
+.barra{  
+    width: 97%;   
+    margin: 10px;
+}
+
+.footer{
+    width: 95%;
+}
+
+.pie-pagina{
+    width: 96%;
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    .header{
+        width: 90%;
+        height: 230px;
+    }
+    .navbar{
+        width: 90%;
+        grid-template-columns: 1fr  1fr 1fr ;
+       
+        height: 130px
+    }
+.a{
+    width: 93%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height:20px;
+}
+.b{
+    width: 93%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height:20px;
+}
+.c{
+    width: 93%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height:20px;
+}
+
+    .text{
+        width: 90%
+    }
+    .h1{
+       width: 90%;
+    }
+    .section{
+        background-color: rgb(255, 227, 65);
+     display: grid;
+    grid-template-columns: 1fr 1fr ;
+     grid-template-rows: 1fr 1fr ;
+
+     width: 90%;
+     height: 400px;
+
+    }
+    .articles{
+        background-color: #045270 ; 
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 90%;
+        height: 230px;
+        margin: 18px 0px 0px 18px;
+        padding: 10px 10px;
+    }
+.article{
+    background-color: #5294ad ;
+    width: 93%;
+    margin: 10px;
+}
+
+    .uno{
+        width: 93%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+      height:20px;
+    }
+    .dos{
+        width: 93%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        height:20px;
+       
+    }
+    .tres{
+        width: 93%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        height:20px;
+    }
+
+    .cuatro{
+        width: 93%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        height:20px;
+    }
+
+.cinco{
+    background-color: #93cce2 ;
+    width: 93%;
+    margin: 10px  
+}
+
+.aside{
+        background-color: #ec7e4b ;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 90%;
+        margin: 10px 10px 0px 17px; 
+
+}
+.barra{  
+    background-color: #f5ad83 ;
+    width: 93%;   
+    margin: 10px;
+}
+    
+.footer{
+    width: 90%;
+}
+
+.pie-pagina{
+    width: 93%; 
+}    
+
+}
